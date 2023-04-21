@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/main"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="359dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="1dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/menu" />
+
+    <Button
+        android:id="@+id/reverse"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/reverse"
+        android:contentDescription="My Button Image"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/stop"
+        android:contentDescription="My Button Image"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/start"
+        android:contentDescription="My Button Image"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="62dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="191dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/skip"
+        android:contentDescription="My Button Image"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/end"
+        android:layout_width="60dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/end"
+        android:contentDescription="My Button Image"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/menu_bar_visit"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/menu_bar"
+        android:contentDescription="My Button Image"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/menu_bar_hide"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/menu_bar"
+        android:contentDescription="My Button Image"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/name_bottom"
+        android:layout_width="161dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginBottom="300dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/name_top"
+        android:layout_width="163dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="20dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#EFEBEB"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_middle"
+        android:layout_width="163dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="108dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#EFEBEB"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/time_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="250dp"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
